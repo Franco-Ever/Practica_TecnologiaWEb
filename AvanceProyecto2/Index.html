@@ -2,81 +2,56 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="IndexEstilo.css">
+    <link rel="stylesheet" href="Index_Estilo.css">
 </head>
 <body>
-    <header class="header">
-        <div class="contenedor logo-nav-contenedor">
-            <a href="" ><img src="Imagenes/LogoIris.png" alt="Descripcion" class="logo"></a>
-            <nav class="navegacion">
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="">QUIÉNES SOMOS</a></li>
-                    <li><a href="">SUCURSALES</a></li>
-                    <li><a href="">PRODUCTOS</a></li>
-                    <li><a href="">SERVICIOS</a></li>
-                    <li><a href="">CONTACTOS</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="slider">
-            <ul>
-                <li><img src="Imagenes/imagen5.webp" alt="descripcion" height="500"></li>
-                <li><img src="Imagenes/imagen2.jpg" alt="descripcion" height="500"></li>
-                <li><img src="Imagenes/imagen3.png" alt="descripcion" height="500"></li>
-                <li><img src="Imagenes/imagen4.jpeg" alt="descripcion" height="500"></li>
-            </ul>
-        </div> 
-        <div class="contenedor">
-            <div class="titulo1"><h1>Cuidamos de tu salud</h1></div>
-    <div class="cuadro-opciones">
-        <div class="tabla">
-            <h2>Farmacia Virtual</h2>
-            <img src="Imagenes/farbovirtual.png" alt="">
-            <p>Nuestra Plataforma Virtual</p>
-            <a href="" class="boton">Ingresar</a>
-        </div>
-        <div class="tabla">
-            <h2>Sucursal de Turno</h2>
-            <img src="Imagenes/servicio24horas.png" alt="">
-            <p>Sucursal 24 horas</p>
-            <a href="" class="boton">Ingresar</a>
-        </div>
-        <div class="tabla">
-            <h2>Nuestros Servicios</h2>
-            <img src="Imagenes/servicios.png" alt="">
-            <p>Atención Personalizada, control peso/talla y control de presión</p>
-            <a href="" class="boton">Ingresar</a>
-        </div>
-        <div class="tabla">
-            <h2>Ubica tu Farmacia</h2>
-            <img src="Imagenes/ubicacion.png" alt="">
-            <p>Ubica tu farmacia más cercana de forma segura</p>
-            <a href="" class="boton">Ingresar</a>
-        </div>
-    </div>
-    <div class="titulo2"><p>Información que puede que te interese</p></div>
-    <div>
-        <a href=""><img src="Imagenes/bmedicamento.jpg" alt="Descripcion"></a>
-        <a href=""><img src="Imagenes/salud.jpg" alt="Descripcion"></a>
-        <a href=""><img src="Imagenes/covid-rmn.png" alt="Descripcion" height="300" width="900"></a>
-    </div>
-        </div>
-        <footer class="footer">
-            Derechos Reservados &copy; 2020 <br>
-            
-            <div class="contenedor1">
-                <strong><p>Contactos</p></strong>
-                <strong><p>Oficina Central Cbba</p></strong>
-                <p>Quillacollo-Vinto</p>
-                <p>Telf. (591)241-3051-(Fax)241-0245</p>
-                <p>irisfar@farmaciairis.com.bo</p>
+    <header>
+            <div class="contenedor-busqueda">
+                <img src="Imagenes/LogoIris.png" alt="descripcion" class="logo">
+                    <input type="text" name="search" placeholder="Ingrese texto" class="src" autocomplete="off">
+                    <a href="#"><input type="submit" name="buton" value="Search" class="buton"></a>
             </div>
-        </footer>
+            <nav>
+                <div class="navegacion-login">
+                  <div class="navegacion">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Productos</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Sucursales</a></li>
+                        <li><a href="">Quienes Somos</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                  </div>
+                   <a href="#"><input type="submit" name="buton" value="&nbsp; &nbsp; Login" class="buton-login"></a>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="contenedor-categoria-slider">
+            <div class="categoria">
+                <ul>
+                    <li class="texto-categoria">Categorias</li>
+                    <li><a href="#">Cuidado de bebés y niños</a></li>
+                    <li><a href="#">Productos cosméticos</a></li>
+                    <li><a href="#">Dieta y Nutrición</a></li>
+                    <li><a href="#">Productos naturales</a></li>
+                    <li><a href="#">Salud sexual</a></li>
+                    <li><a href="#">Cuidado personal</a></li>
+                    <li><a href="#">Información sobre el Covid-19</a></li>
+                </ul>
+            </div>
+            <div class="slider">
+                <ul>
+                    <li><img src="Imagenes/imagen5.webp" alt="descripcion"></li>
+                    <li><img src="Imagenes/imagen2.jpg" alt="descripcion"></li>
+                    <li><img src="Imagenes/imagen3.png" alt="descripcion"></li>
+                    <li><img src="Imagenes/imagen4.jpeg" alt="descripcion"></li>
+                </ul>
+            </div>
+        </div>
     </main>
 </body>
 </html>

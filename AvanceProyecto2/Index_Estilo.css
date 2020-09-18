@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    color: #444;
+    border: 3px solid #272343;
+    background: #fff url(Iconos/lupa.png) no-repeat -1px center;
+    width: 400px;
+}
+
+input.buton{
+    background: #272343;
+    color:#bae8e8;
+    width: 4em;
+    height: 1.8em;
+    font-size: 25px;
+    border:none ;
+    transition: all 0.5s;
+}
+.buton:hover{
+    background: #065c6f;
+    color: #f1f1f2;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.logo{
+    width: 20em;
+    padding: 50px;
+}
+.contenedor-busqueda{
+    display: flex;
+    align-items: center;
+}
+.navegacion-login{
+    display: flex;
+    justify-content: space-around;
+    background:#272343 ;
+    align-items: center;
+    height: 5em;
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+}
+.navegacion ul li{
+    display: inline-block;
+
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+.buton-login{
+    background: url(Iconos/login.png) no-repeat -1px center;  
+    padding: 9px 10px 9px 32px;
+    border: none;
+    color: #bae8e8;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navegacion ul li a:hover{
+    background:#065c6f;
+    transition: all .5s;
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.buton-login:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
+    
+}
+.contenedor-categoria-slider{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.contenedor-categoria-slider ul li{
+    list-style: none;
+}
+.categoria{
+    width: 25em;
+    height: 30em;
+}
+.texto-categoria{
+    height: 35em;
+    font-size: 25px;
+    background-color: #065c6f;
+    border-radius: 5px 5px 0 0;
+    padding: 45px;
+    text-align: center;
+}
+.categoria ul{
+    border: 2px solid #065c6f;
+    padding: 0;
+    border-radius: 10px;
+}
+.categoria ul li{
+    height: 1.5em;
+    padding: 15px;
+}
+.categoria ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.categoria ul li:hover{
+    transition: all 1s;
+    transform: scale(1.05);
+}
+.slider{
+    width: 51em;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.slider li{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
