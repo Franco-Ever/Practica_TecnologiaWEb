@@ -99,7 +99,7 @@ input.buton{
     text-align: center;
 }
 .categoria ul{
-    border: 2px solid #065c6f;
+    border: 1px solid #065c6f;
     padding: 0;
     border-radius: 10px;
 }
@@ -110,10 +110,7 @@ input.buton{
 .categoria ul li a{
     text-decoration: none;
     font-size: 1.5em;
-}
-.categoria ul li:hover{
-    transition: all 1s;
-    transform: scale(1.05);
+    color: black;
 }
 .slider{
     width: 51em;
@@ -149,3 +146,21 @@ input.buton{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
+.cuadro-opciones{
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+    text-align: center;
+}
+.tabla{
+    background:#F8F8F8 ;
+    width: 15em;
+    height: 19em;
+    padding: 20px;
+}
+.tabla h2{
+    font-size: 1.5em;
+    color: #065c6f;
+}
+
+
