@@ -10,6 +10,7 @@ input.src{
     border: 3px solid #272343;
     background: #fff url(Iconos/lupa.png) no-repeat -1px center;
     width: 400px;
+    border-radius: 10px 0 0 10px;
 }
 
 input.buton{
@@ -97,6 +98,7 @@ input.buton{
     border-radius: 5px 5px 0 0;
     padding: 45px;
     text-align: center;
+    color: #e3f6f5;
 }
 .categoria ul{
     border: 1px solid #065c6f;
@@ -131,6 +133,7 @@ input.buton{
 .slider img{
     width: 100%;
     height: 500px;
+    border-radius: 10px;
 }
 
 @keyframes cambio{
@@ -153,14 +156,80 @@ input.buton{
     text-align: center;
 }
 .tabla{
-    background:#F8F8F8 ;
+    background:#eeeded ;
     width: 15em;
     height: 19em;
     padding: 20px;
+    border-radius: 10px;
 }
 .tabla h2{
     font-size: 1.5em;
     color: #065c6f;
 }
+.boton{
+    display: inline-block;
+    width: 8em;
+    height: 1.4em;
+    background: #065c6f;
+    text-decoration: none;
+    padding: 12px;
+    color: #e3f6f5;
+    border-radius: 10px;
+}
+.tabla:hover{
+    transition: all .5s;
+    transform: scale(1.1);
+}
+.imagenes1 img{
+    padding: 10px;
+    display: inline-table;
+    width: 38em;
+    height: 15em;
+}
+.imagenes2 img{
+    padding: 10px;
+    display: inline-table;
+    width: 38em;
+    height: 15em;
+}
+.contenedor-pie{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    text-align: center;
+}
+.pie{
+    width: 25em;
+}
+.pie ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.pie ul li{
+    list-style: none;
+    height: 2em;
+}
+.pie img{
+    width: 20px;
+}
+.pie ul li a:hover{
+    color:#bae8e8;
+    transition: all .1s;
+}
+.pie-derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.texto{
+    font-size: 0.8em;
+}
+.iconos img{
+    width: 1.4em;
+}
+
+
 
 
