@@ -274,20 +274,21 @@ footer{
 
 @media only screen and (max-width: 700px){
     
-    .contenedor-busqueda{
-        display: inline-table;
+    .contenedor-busqueda
+    {
+        display: table-row;
     }
     .logo{
-        width: 5em;
+        width: 2em;
     }
     input.src{
-        font-size: 8px;
-        width: 200px;
+        font-size: 5px;
+        width: 170px;
     }
     input.buton{
         width: 4em;
         height: 2.2em;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     
