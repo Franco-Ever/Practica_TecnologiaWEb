@@ -274,8 +274,11 @@ footer{
 
 @media only screen and (max-width: 700px){
     
+    .contenedor-busqueda{
+        display: inline-table;
+    }
     .logo{
-        width: 10em;
+        width: 5em;
     }
     input.src{
         font-size: 8px;
@@ -286,7 +289,7 @@ footer{
         height: 2.2em;
         font-size: 15px;
     }
-    
+
     
 }
 
