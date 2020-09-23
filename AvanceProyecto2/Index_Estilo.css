@@ -1,6 +1,12 @@
+
 body{
     margin: 0;
     padding: 0;
+}
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 input.src{
     padding: 9px 10px 9px 32px;
@@ -36,13 +42,17 @@ input.buton{
 .contenedor-busqueda{
     display: flex;
     align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .navegacion-login{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background:#272343 ;
     align-items: center;
     height: 5em;
+
 }
 .navegacion ul{
     margin: 0;
@@ -82,7 +92,7 @@ input.buton{
 .contenedor-categoria-slider{
     display: flex;
     align-items: center;
-    padding: 10px;
+    margin: 0px 0px 0px 4%;
 }
 .contenedor-categoria-slider ul li{
     list-style: none;
@@ -114,8 +124,12 @@ input.buton{
     font-size: 1.5em;
     color: black;
 }
+.categoria ul li a:hover{
+    color:#bae8e8;
+    transition: all .1s;
+}
 .slider{
-    width: 51em;
+    width: 45em;
     margin: auto;
     overflow: hidden;
 }
@@ -152,7 +166,7 @@ input.buton{
 .cuadro-opciones{
     display: flex;
     padding: 2em;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
 .tabla{
@@ -180,16 +194,19 @@ input.buton{
     transition: all .5s;
     transform: scale(1.1);
 }
+.contenedor-imagenes{
+    text-align: center;
+}
 .imagenes1 img{
     padding: 10px;
-    display: inline-table;
-    width: 38em;
+    display: inline-block;
+    width: 36em;
     height: 15em;
 }
 .imagenes2 img{
     padding: 10px;
-    display: inline-table;
-    width: 38em;
+    display: inline-block;
+    width: 36em;
     height: 15em;
 }
 .contenedor-pie{
@@ -228,6 +245,9 @@ h3{
 }
 .iconos img{
     width: 1.4em;
+}
+footer{
+    align-self: flex-end;
 }
 
 
