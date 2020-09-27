@@ -342,21 +342,16 @@ footer{
     font-size: 1.1em;
     }
     .slider{
-        width: 20em;
-        margin: -210px 0 0 0;
+        display: none;
     }
     .cuadro-opciones{
         display: block;
     }
 
     .contenedor-imagenes{
-        display: table;
+        display: none;
     }
-    .imagenes1 img{
-        width: 20em;
-        height: 10em;
-    }
-
+    
     .contenedor-pie{
         display: table;
     }
