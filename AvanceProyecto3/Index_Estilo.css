@@ -281,6 +281,11 @@ footer{
 }
 
 @media only screen and (max-width: 767px){
+    body:before
+    {
+        min-height: 600vh;
+    }
+
     .logo{
         width: 15em;
         padding: 1em;
@@ -351,6 +356,37 @@ footer{
     }
     .cuadro-opciones{
         display: block;
+    }
+
+    .contenedor-imagenes{
+        display: table;
+    }
+    .imagenes1 img{
+        width: 20em;
+        height: 10em;
+    }
+    .imagenes2 img{
+        width: 20em;
+        height: 10em;
+    }
+
+
+    .contenedor-pie{
+        display: table;
+    }
+    .pie{
+        width: 21.3em;
+    }
+    .pie ul li a{
+        text-decoration: none;
+        font-size: 0.9em;
+        color: black;
+    }
+    .pie ul li a:hover{
+        font-size: 1em;
+    }
+    .pie ul li p{
+        font-size: 0.8em;
     }
 } 
 
