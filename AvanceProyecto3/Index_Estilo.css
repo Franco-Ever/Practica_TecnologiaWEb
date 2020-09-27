@@ -13,7 +13,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 260vh;
+    min-height: 220vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -27,6 +27,9 @@ body:before
     max-width: 1300px;
     margin: 0 auto;
 }
+
+                                                 /* LOGO Y BUSQUEDA*/
+
 input.src{
     padding: 9px 10px 9px 32px;
     outline: none;
@@ -58,6 +61,9 @@ input.buton{
     width: 20em;
     padding: 50px;
 }
+
+                         /*MENU DE NAVEGACIÓN*/
+
 .menu-icon{
     display: none;
 }
@@ -111,6 +117,9 @@ input.buton{
     transform: scale(1.5);
     
 }
+
+                            /*IMAGENES EN MOVIMIENTO Y CUADRO DE CATEGORIAS*/
+
 .contenedor-categoria-slider{
     display: flex;
     align-items: center;
@@ -188,6 +197,9 @@ input.buton{
     75%{margin-left: -300%;}
     100%{margin-left: -300%;}
 }
+
+                                 /*CUADRO DE OPCIONES*/
+
 .cuadro-opciones{
     display: flex;
     padding: 2em;
@@ -219,6 +231,9 @@ input.buton{
     transition: all .5s;
     transform: scale(1.1);
 }
+
+                             /*IMAGENES DE INFORMACIÓN*/
+
 .contenedor-imagenes{
     text-align: center;
 }
@@ -234,6 +249,9 @@ input.buton{
     width: 36em;
     height: 15em;
 }
+
+                             /*INFORMACION DE PIE*/
+
 .contenedor-pie{
     display: flex;
     justify-content: space-around;
@@ -280,11 +298,18 @@ footer{
     align-self: flex-end;
 }
 
+
+
+
+
+
 @media only screen and (max-width: 767px){
     body:before
     {
         min-height: 470vh;
     }
+
+                                            /*LOGO Y BUSQUEDA*/
 
     .logo{
         width: 15em;
@@ -305,6 +330,9 @@ footer{
         width: 10em;
         font-size: 1em;
     }
+
+                                                /*MENU CON RESPONSIVE*/
+
     .menu-icon{
         display: block;
         cursor: pointer;
@@ -326,6 +354,9 @@ footer{
         width: 100%;
         display: table;
     }
+
+                                /*IMAGENES NE MOVIMIENTO Y CUADRO DE CATEGORIAS*/
+
     .slider{
         display: none;
     }
@@ -336,24 +367,20 @@ footer{
     .categoria ul li a{
         font-size: 1em;
     }
-    /*.categoria ul li a:hover{
-    font-size: 1.1em;
-    }
-    .contenedor-categoria-slider{
-        display: table;
-    }
-    .slider{
-        width: 18rem;
-        margin: 0 200px 0 0;
-    }*/
+    
+                                                        /*CUADRO DE OPCIONES*/
+
     .cuadro-opciones{
         display: block;
-        align-items: center;
     }
-    
+
+                                            /*IMAGENES DE INFORMACIÓN*/
     .contenedor-imagenes{
         display: none;
     }
+
+                                            /*INFORMACION DEL PIE*/
+
     .contenedor-pie{
         display: table;
     }
