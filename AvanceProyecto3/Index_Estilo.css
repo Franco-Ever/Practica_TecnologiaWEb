@@ -407,6 +407,9 @@ footer{
     .pie ul li p{
         font-size: 0.8em;
     }
+    .pie-derechos{
+        display: table;
+    }
 } 
 
 
