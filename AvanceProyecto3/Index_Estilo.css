@@ -304,6 +304,12 @@ footer{
 
 
 @media only screen and (max-width: 767px){
+
+    .container{
+        width: 95%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
     body:before
     {
         min-height: 470vh;
@@ -366,6 +372,9 @@ footer{
 
     .categoria ul li a{
         font-size: 1em;
+    }
+    .categoria ul li a:hover{
+        font-size: 1.1em;
     }
     
                                                         /*CUADRO DE OPCIONES*/
