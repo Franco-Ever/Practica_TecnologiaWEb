@@ -283,7 +283,7 @@ footer{
 @media only screen and (max-width: 767px){
     body:before
     {
-        min-height: 600vh;
+        min-height: 470vh;
     }
 
     .logo{
@@ -324,34 +324,36 @@ footer{
     }
     .navegacion{
         width: 100%;
-    }
-    .navegacion{
         display: table;
-    }
-    .categoria{
-        width: 20em;
-    }
-    .categoria ul li{
-        font-size: 1em;
-        padding: 5px;
-    }
-    .categoria ul li a{
-        font-size: 1em;
-    }
-    .categoria ul li a:hover{
-    font-size: 1.1em;
     }
     .slider{
         display: none;
     }
-    .cuadro-opciones{
-        display: block;
+    .categoria{
+        width: 18em;
     }
 
+    .categoria ul li a{
+        font-size: 1em;
+    }
+    /*.categoria ul li a:hover{
+    font-size: 1.1em;
+    }
+    .contenedor-categoria-slider{
+        display: table;
+    }
+    .slider{
+        width: 18rem;
+        margin: 0 200px 0 0;
+    }*/
+    .cuadro-opciones{
+        display: block;
+        align-items: center;
+    }
+    
     .contenedor-imagenes{
         display: none;
     }
-    
     .contenedor-pie{
         display: table;
     }
