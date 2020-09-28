@@ -12,7 +12,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 130vh;
+    min-height: 170vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,6 +106,7 @@ input.buton{
     border-radius: 50px;
     transform: scale(1.2);
 }
+
 .form-register{
     width: 400px;
     background: #34303c;
@@ -153,4 +154,134 @@ input.buton{
     color: white;
     margin: 16px 0;
     font-size: 16px;
+}
+.container{
+    padding: 2rem;
+}
+.contenedor-pie{
+    display: flex;
+    justify-content: space-around;
+    background:#bae8e8 ;
+}
+h3{
+    text-align: center;
+}
+.pie{
+    width: 25em;
+}
+.pie ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.pie ul li{
+    list-style: none;
+    height: 2em;
+}
+.pie img{
+    width: 20px;
+}
+.pie ul li a:hover{
+    color:#506b6b;
+    transition: all .1s;
+    font-size: 1.5em;
+}
+.pie-derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background:#bae8e8 ;
+    border-radius: 0px 0px 15px 15px;
+}
+.texto{
+    font-size: 0.8em;
+}
+.iconos img{
+    width: 1.4em;
+}
+footer{
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 767px){
+
+    .container{
+        width: 95%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    body:before
+    {
+        min-height: 200vh;
+    }
+
+                                            /*LOGO Y BUSQUEDA*/
+
+    .logo{
+        width: 15em;
+        padding: 1em;
+    }
+    .contenedor-busqueda{
+        display: block;
+        text-align: center;
+        padding: 1em;
+    }
+    input.buton{
+        border-radius: 10px;
+        width: 5em;
+        font-size: 1.2em;
+    }
+    input.src{
+        border-radius: 10px;
+        width: 10em;
+        font-size: 1em;
+    }
+
+                                                /*MENU CON RESPONSIVE*/
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+        padding: 1em;
+    }
+    .menu-icon:hover{
+        background-color:#065c6f ;
+    }
+    .navegacion ul{
+        display: none;
+    }
+    .navegacion ul.show{
+        display: block;
+    }
+    .navegacion{
+        width: 100%;
+        display: table;
+    }
+
+                                        /*INFORMACION DE PIE*/
+
+                                        
+    .contenedor-pie{
+        display: table;
+    }
+    .pie{
+        width: 21.3em;
+    }
+    .pie ul li a{
+        text-decoration: none;
+        font-size: 0.9em;
+        color: black;
+    }
+    .pie ul li a:hover{
+        font-size: 1em;
+    }
+    .pie ul li p{
+        font-size: 0.8em;
+    }
+    .pie-derechos{
+        display: table;
+    }
 }
