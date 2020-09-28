@@ -12,7 +12,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 170vh;
+    min-height: 260vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,69 +106,109 @@ input.buton{
     border-radius: 50px;
     transform: scale(1.2);
 }
-
-.form-register{
-    width: 400px;
-    background: #34303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    box-shadow: 7px 13px 37px #0000;
+.contenedor-categoria-opciones{
+    display: flex;
 }
-.form-register h4{
-    font-size: 22px;
-    margin-bottom: 20px;
+.contenedor-categoria-opciones ul li{
+    list-style: none;
 }
-.controls{
-    width: 100%;
-    background: #21303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    color: white;
+.categoria{
+    width: 25em;
+    height: 30em;
 }
-.form-register p{
-    height: 40px;
+.texto-categoria{
+    height: 35em;
+    font-size: 25px;
+    background-color: #065c6f;
+    border-radius: 5px 5px 0 0;
+    padding: 45px;
     text-align: center;
-    font-size: 18px;
-    line-height: 40px;
+    color: #e3f6f5;
 }
-.form-register a{
-    color: white;
+.categoria ul{
+    border: 1px solid #065c6f;
+    padding: 0;
+    border-radius: 10px;
+}
+.categoria ul li{
+    height: 1.5em;
+    padding: 15px;
+}
+.categoria ul li a{
     text-decoration: none;
+    font-size: 1.5em;
+    color: black;
 }
-.form-register a:hover{
+.categoria ul li a:hover{
+    color:#272343;
+    transition: all .1s;
+    transform: scale(1.1);
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.cuadro-opciones{
+    display: flex;
+    padding:2em;
+    justify-content: space-between;
+    text-align: center;
+}
+.tabla{
+    background:#ffffff ;
+    width: 20em;
+    height: 28em;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tabla img{
+    height: 15rem;
+}
+.tabla h2{
+    font-size: 1.0em;
+    color: #065c6f;
+    text-align: left;
+    background: #FC5858;
+    width: 2.5rem;
+    border-radius: 10px;
+    font-weight: 800;
     color: white;
-    text-decoration: underline;
 }
-.form-register .boton{
-    width: 100%;
-    background: #1f53c5;
+
+.boton{
+    display: inline-block;
+    width: 8em;
+    height: 1.4em;
+    background: #065c6f;
+    text-decoration: none;
     padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
+    color: #e3f6f5;
+    border-radius: 10px;
 }
-.container{
-    padding: 2rem;
+.tabla:hover{
+    transition: all .5s;
+    transform: scale(1.1);
 }
+h3{
+    background: #bae8e8 ;
+    color: #272343;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 8px  #272343;
+}
+h3 img{
+    width: 1rem;
+}
+
 .contenedor-pie{
     display: flex;
     justify-content: space-around;
     background:#bae8e8 ;
+    border-radius: 15px 15px 0px 0;
 }
-h3{
+h4{
     text-align: center;
 }
-
-                            /*INFORMACIÓN DE PIE*/
-
 .pie{
     width: 25em;
 }
@@ -215,7 +255,7 @@ footer{
     }
     body:before
     {
-        min-height: 240vh;
+        min-height: 950vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -264,9 +304,48 @@ footer{
         display: table;
     }
 
-                                        /*INFORMACION DE PIE*/
 
-                                        
+                        /*texto*/
+
+    h3{
+        font-size: 0.9rem;
+        width: 18rem;
+    }
+    h3 img{
+        width: 0.8rem;
+    }
+
+                                /* CUADRO DE CATEGORIAS*/
+    .contenedor-categoria-opciones{
+        display: table;
+    }
+    .categoria{
+        width: 18em;
+    }
+
+    .categoria ul li a{
+        font-size: 1em;
+    }
+    .categoria ul li a:hover{
+        font-size: 1.1em;
+    }
+    
+                                                        /*CUADRO DE OPCIONES*/
+
+    .cuadro-opciones{
+        display: block;
+    }
+    .tabla{
+        width: 15rem;
+        height: 25rem;
+    }
+    .tabla img{
+        height: 10rem;
+    }
+
+
+                                            /*INFORMACION DEL PIE*/
+
     .contenedor-pie{
         display: table;
     }
@@ -287,4 +366,4 @@ footer{
     .pie-derechos{
         display: table;
     }
-}
+} 

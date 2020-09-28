@@ -1,3 +1,9 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +18,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 170vh;
+    min-height: 160vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,104 +112,96 @@ input.buton{
     border-radius: 50px;
     transform: scale(1.2);
 }
-
-.form-register{
-    width: 400px;
-    background: #34303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    box-shadow: 7px 13px 37px #0000;
+.contenedor-galeria{
+    display: inline-block;
 }
-.form-register h4{
-    font-size: 22px;
-    margin-bottom: 20px;
+.contenedor{
+    display: flex;
+    align-items: center;
 }
-.controls{
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     width: 100%;
-    background: #21303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    color: white;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 }
-.form-register p{
+.galeria >a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+    width: 200px;
+    height: 250px;
+}
+.galeria img{
+    width: 100%;
+    vertical-align:top;
+    height: 300px;
+    object-fit: cover;
+}
+.galeria a:hover{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+    object-fit: cover;
+    transition:all 0.5s;
+}
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box img{
+    width: 75vw;
+    max-height: 70vw;
+
+}
+.light-box:target{
+    transform: scale(1);
+}
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #851919;
+    color: white;
+    text-decoration: none;
+    width: 40px;
     height: 40px;
     text-align: center;
-    font-size: 18px;
     line-height: 40px;
+    border-radius: 50%;
 }
-.form-register a{
+.next{
+    display: block;
+    background: #851919;
     color: white;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
     text-decoration: none;
-}
-.form-register a:hover{
-    color: white;
-    text-decoration: underline;
-}
-.form-register .boton{
-    width: 100%;
-    background: #1f53c5;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
-.container{
-    padding: 2rem;
-}
-.contenedor-pie{
-    display: flex;
-    justify-content: space-around;
-    background:#bae8e8 ;
-}
-h3{
     text-align: center;
 }
+h1{
+    margin: 0 0 -200px 0;
+    padding: 5rem;
 
-                            /*INFORMACIÓN DE PIE*/
-
-.pie{
-    width: 25em;
 }
-.pie ul li a{
-    text-decoration: none;
-    font-size: 1em;
-    color: black;
-}
-.pie ul li{
-    list-style: none;
-    height: 2em;
-}
-.pie img{
-    width: 20px;
-}
-.pie ul li a:hover{
-    color:#506b6b;
-    transition: all .1s;
-    font-size: 1.5em;
-}
-.pie-derechos{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    background:#bae8e8 ;
-    border-radius: 0px 0px 15px 15px;
-}
-.texto{
-    font-size: 0.8em;
-}
-.iconos img{
-    width: 1.4em;
-}
-footer{
-    align-self: flex-end;
+.texto p{
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 767px){
@@ -215,7 +213,7 @@ footer{
     }
     body:before
     {
-        min-height: 240vh;
+        min-height: 370vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -263,28 +261,25 @@ footer{
         width: 100%;
         display: table;
     }
-
-                                        /*INFORMACION DE PIE*/
-
-                                        
-    .contenedor-pie{
+    .contenedor{
         display: table;
     }
-    .pie{
-        width: 21.3em;
+    h1{
+        margin: 0 0 0px 0;
+    padding: 0;
     }
-    .pie ul li a{
-        text-decoration: none;
-        font-size: 0.9em;
-        color: black;
+    .imagen img{
+        width: 15rem;
+        height: 30rem;
     }
-    .pie ul li a:hover{
-        font-size: 1em;
+}
+
+@media sreen and (max-width:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     }
-    .pie ul li p{
-        font-size: 0.8em;
-    }
-    .pie-derechos{
-        display: table;
+    .close{
+        top: 20px;
+        right: 20px;
     }
 }
