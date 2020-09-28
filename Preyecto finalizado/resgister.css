@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body:before
+{
+    content: "";
+    width: 100%;
+    min-height: 130vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #e3f6f5, #065c6f);
+    opacity: 0.9;
+    z-index: -1;
+}
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+                                                 /* LOGO Y BUSQUEDA*/
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    color: #444;
+    border: 3px solid #272343;
+    background: #fff url(Iconos/lupa.png) no-repeat -1px center;
+    width: 400px;
+    border-radius: 10px 0 0 10px;
+}
+
+input.buton{
+    background: #272343;
+    color:#bae8e8;
+    width: 4em;
+    height: 1.8em;
+    font-size: 25px;
+    border:none ;
+    transition: all 0.5s;
+}
+.buton:hover{
+    background: #065c6f;
+    color: #f1f1f2;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.logo{
+    width: 20em;
+    padding: 50px;
+}
+
+                         /*MENU DE NAVEGACIÓN*/
+
+.menu-icon{
+    display: none;
+}
+.contenedor-busqueda{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    background:#272343 ;
+    align-items: center;
+    height: 5em;
+
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+}
+.navegacion ul li{
+    display: inline-block;
+
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+.buton-login{
+    display: none;
+}
+.navegacion ul li a:hover{
+    background:#065c6f;
+    transition: all .5s;
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.form-register{
+    width: 400px;
+    background: #34303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #0000;
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #21303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-register .boton{
+    width: 100%;
+    background: #1f53c5;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
