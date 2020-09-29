@@ -202,6 +202,22 @@ h1{
 }
 .texto p{
     font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.boton{
+    background:#065c6f;
+    text-decoration: none;
+    width: 9rem;
+    border-radius: 10px;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.boton a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 767px){
@@ -213,7 +229,7 @@ h1{
     }
     body:before
     {
-        min-height: 370vh;
+        min-height: 390vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -274,7 +290,7 @@ h1{
     }
 }
 
-@media sreen and (max-width:400px){
+@media screen and (max-width:400px){
     .galeria{
         grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     }

@@ -12,7 +12,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 880vh;
+    min-height: 260vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,7 +106,46 @@ input.buton{
     border-radius: 50px;
     transform: scale(1.2);
 }
-
+.contenedor-categoria-opciones{
+    display: flex;
+}
+.contenedor-categoria-opciones ul li{
+    list-style: none;
+}
+.categoria{
+    width: 25em;
+    height: 30em;
+}
+.texto-categoria{
+    height: 35em;
+    font-size: 25px;
+    background-color: #065c6f;
+    border-radius: 5px 5px 0 0;
+    padding: 45px;
+    text-align: center;
+    color: #e3f6f5;
+}
+.categoria ul{
+    border: 1px solid #065c6f;
+    padding: 0;
+    border-radius: 10px;
+}
+.categoria ul li{
+    height: 1.5em;
+    padding: 15px;
+}
+.categoria ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+.categoria ul li a:hover{
+    color:#272343;
+    transition: all .1s;
+    transform: scale(1.1);
+    font-size: 1.7em;
+    font-weight: bold;
+}
 
 .cuadro-opciones{
     display: flex;
@@ -150,12 +189,15 @@ input.buton{
     transform: scale(1.1);
 }
 h3{
-    background: #272343;
-    color: #ffffff;
+    background: #bae8e8 ;
+    color: #272343;
     border-radius: 10px;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
     box-shadow: 2px 3px 8px  #272343;
+}
+h3 img{
+    width: 1rem;
 }
 
 .contenedor-pie{
@@ -213,7 +255,7 @@ footer{
     }
     body:before
     {
-        min-height: 3220vh;
+        min-height: 950vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -262,10 +304,20 @@ footer{
         display: table;
     }
 
-                                /*IMAGENES NE MOVIMIENTO Y CUADRO DE CATEGORIAS*/
 
-    .slider{
-        display: none;
+                        /*texto*/
+
+    h3{
+        font-size: 0.9rem;
+        width: 18rem;
+    }
+    h3 img{
+        width: 0.8rem;
+    }
+
+                                /* CUADRO DE CATEGORIAS*/
+    .contenedor-categoria-opciones{
+        display: table;
     }
     .categoria{
         width: 18em;
@@ -276,11 +328,6 @@ footer{
     }
     .categoria ul li a:hover{
         font-size: 1.1em;
-    }
-
-                        /*TEXTO*/
-    h3{
-        font-size: 1rem;
     }
     
                                                         /*CUADRO DE OPCIONES*/
@@ -296,10 +343,6 @@ footer{
         height: 10rem;
     }
 
-                                            /*IMAGENES DE INFORMACIÓN*/
-    .contenedor-imagenes{
-        display: none;
-    }
 
                                             /*INFORMACION DEL PIE*/
 
