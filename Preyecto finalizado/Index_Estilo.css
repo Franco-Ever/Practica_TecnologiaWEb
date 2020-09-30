@@ -98,6 +98,7 @@ input.buton{
     font-size: 1.2em;
     transition: all 0.5s;
 }
+
 .buton-login{
     background: url(Iconos/login.png) no-repeat -1px center;  
     padding: 9px 10px 9px 32px;

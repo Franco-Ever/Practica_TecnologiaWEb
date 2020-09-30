@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 260vh;
+    min-height: 220vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -97,8 +98,14 @@ input.buton{
     font-size: 1.2em;
     transition: all 0.5s;
 }
+
 .buton-login{
-    display: none;
+    background: url(Iconos/login.png) no-repeat -1px center;  
+    padding: 9px 10px 9px 32px;
+    border: none;
+    color: #bae8e8;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 .navegacion ul li a:hover{
     background:#065c6f;
@@ -106,89 +113,16 @@ input.buton{
     border-radius: 50px;
     transform: scale(1.2);
 }
-.contenedor-categoria-opciones{
-    display: flex;
-}
-.contenedor-categoria-opciones ul li{
-    list-style: none;
-}
-.categoria{
-    width: 25em;
-    height: 30em;
-}
-.texto-categoria{
-    height: 35em;
-    font-size: 25px;
-    background-color: #065c6f;
-    border-radius: 5px 5px 0 0;
-    padding: 45px;
-    text-align: center;
-    color: #e3f6f5;
-}
-.categoria ul{
-    border: 1px solid #065c6f;
-    padding: 0;
-    border-radius: 10px;
-}
-.categoria ul li{
-    height: 1.5em;
-    padding: 15px;
-}
-.categoria ul li a{
-    text-decoration: none;
-    font-size: 1.5em;
-    color: black;
-}
-.categoria ul li a:hover{
-    color:#272343;
-    transition: all .1s;
-    transform: scale(1.1);
-    font-size: 1.7em;
-    font-weight: bold;
+.buton-login:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
+    
 }
 
-.cuadro-opciones{
-    display: flex;
-    padding:2em;
-    justify-content: space-between;
-    text-align: center;
-}
-.tabla{
-    background:#ffffff ;
-    width: 20em;
-    height: 28em;
-    padding: 5px;
-    border-radius: 10px;
-}
-.tabla img{
-    height: 15rem;
-}
-.tabla h2{
-    font-size: 1.0em;
-    color: #065c6f;
-    text-align: left;
-    background: #FC5858;
-    width: 2.5rem;
-    border-radius: 10px;
-    font-weight: 800;
-    color: white;
-}
 
-.boton{
-    display: inline-block;
-    width: 8em;
-    height: 1.4em;
-    background: #065c6f;
-    text-decoration: none;
-    padding: 12px;
-    color: #e3f6f5;
-    border-radius: 10px;
-}
-.tabla:hover{
-    transition: all .5s;
-    transform: scale(1.1);
-}
-h3{
+                                                        /**/
+
+h1{
     background: #bae8e8 ;
     color: #272343;
     border-radius: 10px;
@@ -196,9 +130,31 @@ h3{
     font-size: 1.5rem;
     box-shadow: 2px 3px 8px  #272343;
 }
-h3 img{
+h1 img{
     width: 1rem;
 }
+
+                                                            /**/
+
+iframe{
+    padding: 2rem;
+    width: 95%;
+}
+.reclamos{
+    padding: 4rem;
+}
+.box{
+    width: 22rem;
+    height: 2rem;
+}
+textarea{
+    width: 95%;
+    height: 20rem;
+}
+
+
+
+                                                    /**/
 
 .contenedor-pie{
     display: flex;
@@ -206,7 +162,7 @@ h3 img{
     background:#bae8e8 ;
     border-radius: 15px 15px 0px 0;
 }
-h4{
+h3{
     text-align: center;
 }
 .pie{
@@ -246,6 +202,9 @@ footer{
     align-self: flex-end;
 }
 
+
+
+
 @media only screen and (max-width: 767px){
 
     .container{
@@ -255,7 +214,7 @@ footer{
     }
     body:before
     {
-        min-height: 950vh;
+        min-height: 300vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -305,47 +264,6 @@ footer{
     }
 
 
-                        /*texto*/
-
-    h3{
-        font-size: 0.9rem;
-        width: 18rem;
-    }
-    h3 img{
-        width: 0.8rem;
-    }
-
-                                /* CUADRO DE CATEGORIAS*/
-    .contenedor-categoria-opciones{
-        display: table;
-    }
-    .categoria{
-        width: 18em;
-    }
-
-    .categoria ul li a{
-        font-size: 1em;
-    }
-    .categoria ul li a:hover{
-        font-size: 1.1em;
-    }
-    
-                                                        /*CUADRO DE OPCIONES*/
-
-    .cuadro-opciones{
-        display: block;
-    }
-    .tabla{
-        width: 15rem;
-        height: 25rem;
-    }
-    .tabla img{
-        height: 10rem;
-    }
-
-
-                                            /*INFORMACION DEL PIE*/
-
     .contenedor-pie{
         display: table;
     }
@@ -366,4 +284,4 @@ footer{
     .pie-derechos{
         display: table;
     }
-} 
+}

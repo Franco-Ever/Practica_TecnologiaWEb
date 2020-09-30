@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body:before
+{
+    content: "";
+    width: 100%;
+    min-height: 260vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #e3f6f5, #065c6f);
+    opacity: 0.9;
+    z-index: -1;
+}
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+                                                 /* LOGO Y BUSQUEDA*/
+
+input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    color: #444;
+    border: 3px solid #272343;
+    background: #fff url(Iconos/lupa.png) no-repeat -1px center;
+    width: 400px;
+    border-radius: 10px 0 0 10px;
+}
+
+input.buton{
+    background: #272343;
+    color:#bae8e8;
+    width: 4em;
+    height: 1.8em;
+    font-size: 25px;
+    border:none ;
+    transition: all 0.5s;
+}
+.buton:hover{
+    background: #065c6f;
+    color: #f1f1f2;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+.logo{
+    width: 20em;
+    padding: 50px;
+}
+
+                         /*MENU DE NAVEGACIÓN*/
+
+.menu-icon{
+    display: none;
+}
+.contenedor-busqueda{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+    background:#272343 ;
+    align-items: center;
+    height: 5em;
+
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+}
+.navegacion ul li{
+    display: inline-block;
+
+}
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.5s;
+}
+
+.buton-login{
+    background: url(Iconos/login.png) no-repeat -1px center;  
+    padding: 9px 10px 9px 32px;
+    border: none;
+    color: #bae8e8;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navegacion ul li a:hover{
+    background:#065c6f;
+    transition: all .5s;
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.buton-login:hover{
+    transition: all 0.5s;
+    transform: scale(1.5);
+    
+}
+
+
+                                                    /**/
+                                    
+h1{
+    background: #bae8e8 ;
+    color: #272343;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 8px  #272343;
+}
+h1 img{
+    width: 1rem;
+}
+
+                                                    /**/
+                                        
+.imagen-texto{
+    display: flex;
+}
+.imagen{
+    padding: 2rem;
+}
+.texto{
+    width: 40rem;
+    padding: 2rem;
+    background:#272343;
+    border-radius: 10%;
+}
+.texto h2{
+    color: #ffffff;
+}
+.texto p{
+    font-size: 1.4rem;
+    color: #ffff;
+}
+
+.objetivos{
+    padding: 2rem;
+}
+.objetivos img{
+    padding: 1.5rem;
+}
+
+
+
+.contenedor-pie{
+    display: flex;
+    justify-content: space-around;
+    background:#bae8e8 ;
+    border-radius: 15px 15px 0px 0;
+}
+h3{
+    text-align: center;
+}
+.pie{
+    width: 25em;
+}
+.pie ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+.pie ul li{
+    list-style: none;
+    height: 2em;
+}
+.pie img{
+    width: 20px;
+}
+.pie ul li a:hover{
+    color:#506b6b;
+    transition: all .1s;
+    font-size: 1.5em;
+}
+.pie-derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background:#bae8e8 ;
+    border-radius: 0px 0px 15px 15px;
+}
+.texto1{
+    font-size: 0.8em;
+}
+.iconos img{
+    width: 1.4em;
+}
+footer{
+    align-self: flex-end;
+}

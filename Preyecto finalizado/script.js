@@ -14,6 +14,7 @@ jQuery('document').ready(function($){
     })
 
 })
+
 var fecha_actual=new Date();
 var dia=fecha_actual.getDate();
 var mes=fecha_actual.getMonth()+1;
