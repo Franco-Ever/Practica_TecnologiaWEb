@@ -240,7 +240,7 @@ h1{
     }
     body:before
     {
-        min-height: 390vh;
+        height: 145rem;
     }
 
                                             /*LOGO Y BUSQUEDA*/

@@ -215,7 +215,7 @@ footer{
     }
     body:before
     {
-        min-height: 300vh;
+        height: 120rem;
     }
 
                                             /*LOGO Y BUSQUEDA*/

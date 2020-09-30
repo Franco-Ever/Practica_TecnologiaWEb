@@ -94,5 +94,8 @@ body:before
     .form-register{
         width: 16rem;
     }
+    body:before{
+        height: 50rem;
+}
 
 }

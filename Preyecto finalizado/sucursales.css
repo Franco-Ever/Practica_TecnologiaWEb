@@ -195,7 +195,7 @@ ul,ul{
     }
     body:before
     {
-        min-height: 600vh;
+        height: 180rem;
     }
 
                                             /*LOGO Y BUSQUEDA*/

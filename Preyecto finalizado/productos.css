@@ -232,7 +232,7 @@ footer{
     }
     body:before
     {
-        min-height: 3250vh;
+        height: 1400rem;
     }
 
                                             /*LOGO Y BUSQUEDA*/
