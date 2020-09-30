@@ -1,4 +1,11 @@
-
+@font-face{
+    font-family: fuente1;
+    src: url(Fonts/DarkerGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(Fonts/FredokaOne-Regular.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -97,6 +104,7 @@ input.buton{
     color: white;
     font-size: 1.2em;
     transition: all 0.5s;
+    font-family: fuente1;
 }
 
 .buton-login{
@@ -141,6 +149,7 @@ input.buton{
     padding: 45px;
     text-align: center;
     color: #e3f6f5;
+    font-family: fuente2;
 }
 .categoria ul{
     border: 1px solid #065c6f;
@@ -155,6 +164,7 @@ input.buton{
     text-decoration: none;
     font-size: 1.5em;
     color: black;
+    font-family: fuente1;
 }
 .categoria ul li a:hover{
     color:#272343;
@@ -217,6 +227,11 @@ input.buton{
 .tabla h2{
     font-size: 1.5em;
     color: #065c6f;
+    font-family: fuente2;
+    font-weight: 50;
+}
+.tabla p{
+    font-family: fuente1;
 }
 .boton{
     display: inline-block;
@@ -227,6 +242,7 @@ input.buton{
     padding: 12px;
     color: #e3f6f5;
     border-radius: 10px;
+    font-family: fuente1;
 }
 .tabla:hover{
     transition: all .5s;
@@ -261,18 +277,21 @@ input.buton{
 }
 h3{
     text-align: center;
+    font-family: fuente2;
+    font-weight: 50;
 }
 .pie{
     width: 25em;
 }
 .pie ul li a{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
 }
 .pie ul li{
     list-style: none;
     height: 2em;
+    font-family: fuente1;
 }
 .pie img{
     width: 20px;

@@ -1,3 +1,11 @@
+@font-face{
+    font-family: fuente1;
+    src: url(Fonts/DarkerGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(Fonts/FredokaOne-Regular.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -96,6 +104,7 @@ input.buton{
     color: white;
     font-size: 1.2em;
     transition: all 0.5s;
+    font-family: fuente1;
 }
 .buton-login{
     display: none;
@@ -117,6 +126,7 @@ input.buton{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     box-shadow: 7px 13px 37px #0000;
+    font-family: fuente1;
 }
 .form-register h4{
     font-size: 22px;
@@ -128,7 +138,7 @@ input.buton{
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid #065c6f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     color: white;
@@ -149,11 +159,13 @@ input.buton{
 }
 .form-register .boton{
     width: 100%;
-    background: #1f53c5;
+    background: #065c6f;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    font-family: fuente1;
+
 }
 .container{
     padding: 2rem;
@@ -162,24 +174,26 @@ input.buton{
     display: flex;
     justify-content: space-around;
     background:#bae8e8 ;
+    border-radius: 15px 15px 0px 0;
 }
-h3{
+h4{
     text-align: center;
+    font-family: fuente2;
+    font-weight: 50;
+    font-size: 1.2rem;
 }
-
-                            /*INFORMACIÓN DE PIE*/
-
 .pie{
     width: 25em;
 }
 .pie ul li a{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
 }
 .pie ul li{
     list-style: none;
     height: 2em;
+    font-family: fuente1;
 }
 .pie img{
     width: 20px;

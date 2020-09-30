@@ -1,4 +1,11 @@
-
+@font-face{
+    font-family: fuente1;
+    src: url(Fonts/DarkerGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(Fonts/FredokaOne-Regular.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -32,6 +39,7 @@ body:before
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     box-shadow: 7px 13px 37px #0000;
+    font-family: fuente1;
 }
 .texto-logo{
     display: flex;
@@ -53,7 +61,7 @@ body:before
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid #065c6f;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     color: white;
@@ -74,11 +82,12 @@ body:before
 }
 .form-register .boton{
     width: 100%;
-    background: #1f53c5;
+    background: #065c6f;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    font-family: fuente1;
 }
 
 @media only screen and (max-width: 767px){

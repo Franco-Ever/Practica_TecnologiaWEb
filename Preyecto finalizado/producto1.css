@@ -1,4 +1,11 @@
-
+@font-face{
+    font-family: fuente1;
+    src: url(Fonts/DarkerGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(Fonts/FredokaOne-Regular.ttf);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -18,7 +25,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 160vh;
+    min-height: 170vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -102,6 +109,7 @@ input.buton{
     color: white;
     font-size: 1.2em;
     transition: all 0.5s;
+    font-family: fuente1;
 }
 .buton-login{
     display: none;
@@ -118,6 +126,7 @@ input.buton{
 .contenedor{
     display: flex;
     align-items: center;
+    font-family: fuente1;
 }
 .galeria{
     display: grid;
@@ -198,6 +207,8 @@ input.buton{
 h1{
     margin: 0 0 -200px 0;
     padding: 5rem;
+    font-family: fuente2;
+    font-weight: 50;
 
 }
 .texto p{

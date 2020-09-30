@@ -1,3 +1,11 @@
+@font-face{
+    font-family: fuente1;
+    src: url(Fonts/DarkerGrotesque-Medium.ttf);
+}
+@font-face{
+    font-family: fuente2;
+    src: url(Fonts/FredokaOne-Regular.ttf);
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,7 +20,7 @@ body:before
 {
     content: "";
     width: 100%;
-    min-height: 510vh;
+    min-height: 570vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -96,6 +104,7 @@ input.buton{
     color: white;
     font-size: 1.2em;
     transition: all 0.5s;
+    font-family: fuente1;
 }
 
 .buton-login{
@@ -124,6 +133,7 @@ input.buton{
 
 .contenedor-sucursal{
    padding: 2rem;
+   font-family: fuente1;
 }
 h1{
     background: #bae8e8 ;
@@ -132,6 +142,8 @@ h1{
     padding: 0.5rem;
     font-size: 1.5rem;
     box-shadow: 2px 3px 8px  #272343;
+    font-family: fuente2;
+    font-weight: 50;
 }
 h1 img{
     width: 1rem;
@@ -157,10 +169,12 @@ h2{
 }
 .texto ul li a{
     color: #ffffff;
+    font-family: fuente1;
 }
 .texto ul li strong{
     color:#bae8e8;
     font-size: 1.2rem;
+    font-family: fuente1;
 }
 .contenedor-atencion{
     padding: 2rem;
@@ -172,6 +186,8 @@ h2{
     width: 95%;
     border-radius: 10px;
     opacity: 80%;
+    font-family: fuente1;
+    font-size: 1.2rem;
 }
 
                                                     /*IMAGEN*/
@@ -201,6 +217,8 @@ ul,ul{
     text-decoration: none;
     padding: 10px 15px;
     display: table;
+    font-family: fuente1;
+    font-size: 1.2rem;
 }
 .nav li a:hover{
     background-color: #272343;
@@ -219,6 +237,7 @@ ul,ul{
     background: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 2rem;
+    font-family: fuente1;
 }
 
                                                     /**/
@@ -234,9 +253,16 @@ ul,ul{
     border: 2px solid #065c6f;
     color: white;
     opacity: 80%;
+    font-family: fuente1;
+    font-size: 1.1rem;
 }
 .tabla ul li{
     padding: 10px;
+}
+
+h2{
+    font-family: fuente2;
+    font-weight: 50;
 }
 
 
@@ -250,18 +276,22 @@ ul,ul{
 }
 h3{
     text-align: center;
+    font-family: fuente2;
+    font-weight: 50;
+    font-size: 1.2rem;
 }
 .pie{
     width: 25em;
 }
 .pie ul li a{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.1em;
     color: black;
 }
 .pie ul li{
     list-style: none;
     height: 2em;
+    font-family: fuente1;
 }
 .pie img{
     width: 20px;
@@ -361,6 +391,9 @@ footer{
     }
     .nav{
         padding: 0;
+    }
+    .nav li a{
+        font-size: 0.8rem;
     }
     .nav >li{
         padding: 0rem;
