@@ -250,6 +250,9 @@ footer{
         display: table;
     }
 
+    iframe{
+        width: 19rem;
+    }
 
     .contenedor-pie{
         display: table;

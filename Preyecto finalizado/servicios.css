@@ -297,7 +297,7 @@ footer{
     }
     body:before
     {
-        min-height: 370vh;
+        min-height: 1000vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -346,6 +346,59 @@ footer{
         display: table;
     }
 
+
+
+    .img{
+        padding: 0;
+    }
+    .img img{
+        width: 18rem;
+        height: 10rem;
+    }
+    .contenedor{
+        padding: 0;
+        display: block;
+    }
+    .nav{
+        padding: 0;
+    }
+    .nav >li{
+        padding: 0rem;
+        float: unset;
+        font-size: 0.8rem;
+    }
+    .nav li:hover> ul{
+        width: 10rem;
+        height: 15rem;
+    }
+    .imagen{
+        width: 10rem;
+        height: 8rem;
+    }
+    .direccion{
+        padding: 2rem;
+    }
+
+
+    .contenedor-sucursal{
+        display: block;
+        padding: 0;
+    }
+    .texto{
+        width: 16rem;
+    }
+    .texto ul{
+        padding: 0;
+    }
+
+
+
+    .texto2 ul{
+        padding: 0;
+    }
+    .img img{
+        width: 15rem;
+    }
 
 
 

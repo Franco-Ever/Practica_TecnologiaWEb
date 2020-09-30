@@ -183,7 +183,7 @@ ul,ul{
     }
     body:before
     {
-        min-height: 370vh;
+        min-height: 600vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -230,5 +230,30 @@ ul,ul{
     .navegacion{
         width: 100%;
         display: table;
+    }
+
+
+    .contenedor-sucursal{
+        padding: 0;
+        display: block;
+    }
+    .nav{
+        padding: 0;
+    }
+    .nav >li{
+        padding: 0rem;
+        float: unset;
+        font-size: 0.8rem;
+    }
+    .nav li:hover> ul{
+        width: 10rem;
+        height: 15rem;
+    }
+    .imagen{
+        width: 10rem;
+        height: 8rem;
+    }
+    .direccion{
+        padding: 2rem;
     }
 }

@@ -215,7 +215,7 @@ footer{
     }
     body:before
     {
-        min-height: 240vh;
+        min-height: 420vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -264,9 +264,17 @@ footer{
         display: table;
     }
 
+
+                                                /**/
+    .form-register{
+        width: 16rem;
+    }
+
                                         /*INFORMACION DE PIE*/
 
-                                        
+                                        .container{
+                                            padding:0.5rem;
+                                        }                             
     .contenedor-pie{
         display: table;
     }

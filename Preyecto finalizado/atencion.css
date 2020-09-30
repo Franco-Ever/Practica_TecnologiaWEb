@@ -215,7 +215,7 @@ footer{
     }
     body:before
     {
-        min-height: 370vh;
+        min-height: 330vh;
     }
 
                                             /*LOGO Y BUSQUEDA*/
@@ -265,6 +265,16 @@ footer{
     }
 
 
+    .contenedor-atencion{
+        display: block;
+    }
+    .img{
+        padding: 1rem;
+    }
+    .img img{
+        width: 18rem;
+        height: 10rem;
+    }
 
 
     .contenedor-pie{

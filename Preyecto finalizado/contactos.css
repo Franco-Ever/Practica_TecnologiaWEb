@@ -264,6 +264,17 @@ footer{
     }
 
 
+    .contenedor{
+        display: block;
+    }
+    .reclamos{
+        padding: 0;
+    }
+    iframe{
+        padding: 0.5rem;
+    }
+
+
     .contenedor-pie{
         display: table;
     }
