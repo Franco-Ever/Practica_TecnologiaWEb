@@ -185,7 +185,7 @@ input.buton{
     position: absolute;
     top: 40px;
     right: 40px;
-    background: #851919;
+    background: #272343;
     color: white;
     text-decoration: none;
     width: 40px;
@@ -196,7 +196,7 @@ input.buton{
 }
 .next{
     display: block;
-    background: #851919;
+    background: #272343;
     color: white;
     height: 30px;
     width: 30px;
